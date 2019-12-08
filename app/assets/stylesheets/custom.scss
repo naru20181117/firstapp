@@ -9,24 +9,28 @@ body {
 
 // header
 .header {
-  background: #026aa7;
+  background: #EDB48E;
   padding: 10px;
+
   .nav {
     .header_menu {
       display: flex;
       width: 100%;
       position: relative;
-      margin: 0;  
+      margin: 0;
       padding: 0;
       justify-content: space-between;
       align-items: center;
+
       li {
         list-style: none;
         color: #fff;
+
         a {
           color: #fff;
         }
       }
+
       &_title {
         position: absolute;
         left: 50%;
@@ -35,14 +39,16 @@ body {
         font-size: 25px;
         font-weight: bold;
       }
+
       &_inner {
         display: flex;
         padding: 0;
         align-items: center;
+
         .listNew {
           &:after {
             font-family: "Font Awesome 5 Free";
-            content: "\f044";
+            content: "\f271";
             display: inline-block;
             margin-left: 10px;
             font-size: 20px;
@@ -52,6 +58,7 @@ body {
     }
   }
 }
+
 // button
 .submitBtn {
   background: #29b744;
@@ -62,6 +69,7 @@ body {
   border-radius: 90px;
   transition: opacity .5s;
   cursor: pointer;
+
   &:hover {
     opacity: .6;
   }
@@ -70,19 +78,26 @@ body {
 // sign_up
 .sinupPage {
   margin-top: 10vh;
+
   .titleArea {
     text-align: center;
-    h1 {font-size: 2rem;}
+
+    h1 {
+      font-size: 2rem;
+    }
   }
+
   .signupForm {
     .form-group {
       margin: 0 auto 1.5rem auto;
       max-width: 500px;
+
       .form-control {
         background: #f6f8fa;
       }
     }
   }
+
   .submitBtn {
     background: #29b744;
     color: #fff;
@@ -91,6 +106,7 @@ body {
     padding: 10px;
     border-radius: 90px;
     transition: opacity .5s;
+
     &:hover {
       opacity: .6;
     }
@@ -99,26 +115,31 @@ body {
 
 // devise_shared_links
 .acountPage_link {
-  & > a {
+  &>a {
     color: #0075c1;
   }
 }
+
 // sign_in
 .signinPage {
   margin-top: 10vh;
+
   .title {
     margin: 0;
     text-align: center;
   }
+
   .new_user {
     .form-group {
       max-width: 500px;
       margin: 0 auto 1rem;
+
       .form-control {
         background: #f6f8fa;
       }
     }
   }
+
   .loginBtn {
     padding: 12px;
     width: 200px;
@@ -131,6 +152,7 @@ body {
     opacity: 1;
     transition: opacity .5s;
     cursor: pointer;
+
     &:hover {
       opacity: .7;
     }
