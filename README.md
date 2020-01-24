@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 軌跡をつけるアプリ
 ====
 
@@ -11,7 +11,11 @@ This is a site which you can check your daily success and update your thought by
 ## Demo
 ### [This is the site.](https://kiseki.herokuapp.com/)
 [![Image from Gyazo](https://i.gyazo.com/3edcde770ef074ef54befdc2982e862e.gif)](https://kiseki.herokuapp.com/)
-
+---
+### You can use this account for your demo on the site.
+#### e-mail   : example@gmail.com
+#### password : example
+---
 ## Dependency
 - Ruby              2.6.3
 - Rails             5.2.3
@@ -40,6 +44,3 @@ Check if you can login to the host http://localhost:3000
 [Twitter Account](https://twitter.com/1026NT)
 
 
-=======
-# firstapp
->>>>>>> origin/master
