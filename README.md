@@ -1,24 +1,45 @@
-# README
+<<<<<<< HEAD
+軌跡をつけるアプリ
+====
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Overview
 
-Things you may want to cover:
+## Description
 
-* Ruby version
+This is a site which you can check your daily success and update your thought by checking your progress day by day.
 
-* System dependencies
+## Demo
+### [This is the site.](https://kiseki.herokuapp.com/)
+[![Image from Gyazo](https://i.gyazo.com/3edcde770ef074ef54befdc2982e862e.gif)](https://kiseki.herokuapp.com/)
 
-* Configuration
+## Dependency
+- Ruby              2.6.3
+- Rails             5.2.3
+- bootstrap         4.3.1
+- jquery-rails      1.12.4
+- font-awesome-sass 5.9.0
 
-* Database creation
+---
+## Project setup
+- Fork the repository `naru20181117/kiseki-app` to your repository.
+- Install the gem
+`bundle install`
+- Data setting
+`yarn install --check-files` # install yarn (comfirm that the file in node_modules is not deleted, plz)
+`rails db:create` # create the Datebase
+`rails db:migrate` # create the table
+- instace check
+`bundle exec rails server`
+Check if you can login to the host http://localhost:3000
 
-* Database initialization
+## Licence
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+## Author
 
-* Deployment instructions
+[Twitter Account](https://twitter.com/1026NT)
 
-* ...
+
+=======
+# firstapp
+>>>>>>> origin/master
