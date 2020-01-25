@@ -10,9 +10,9 @@
   </head>
 
   <body>
-    <%# この行にif式を追加する %>
+    <%# do not review for non-user %>
     <%= render 'partial/header' if current_user %>
-
+    <%# just an alert %>
     <% if flash[:notice] %>
       <div class="alert alert-info">
         <%= flash[:notice] %>
