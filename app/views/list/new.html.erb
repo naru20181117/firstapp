@@ -1,5 +1,6 @@
 <div class="listnewPage">
   <div class="container">
+  <%# form_with is suggesting both URL and HTTP method, if it's not empty and using Update action %>
     <%= form_with model: @list, url: { action: :create }, class: "new_list" do |f| %>
       <% if @list.errors.any? %>
         <p class="text-danger">タイトルは1～255文字以内で入力してください</p>

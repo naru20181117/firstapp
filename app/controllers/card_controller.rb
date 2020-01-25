@@ -4,7 +4,6 @@ class CardController < ApplicationController
     @card = Card.new
     @list = List.find_by(id: params[:list_id])
   end
-
   def create
     @card = Card.new(card_params)
     if @card.save
@@ -17,6 +16,7 @@ class CardController < ApplicationController
   def show
   end
   def edit
+    # show the lists info
     @lists = List.where(user: current_user)
   end
   def update
